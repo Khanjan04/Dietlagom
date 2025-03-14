@@ -4149,7 +4149,7 @@ Fancybox
     line-height: 30px;
 }
 
-.pq-fancy-box-1 .pq-fancy-box-info .pq-fancybox-description {
+.pq-fancy-box-1 .pq-fancy-box-info .pq-fancybox-description-1 {
     margin-bottom: 15px;
 }
 
@@ -4165,7 +4165,7 @@ Fancybox
     color: var(--primary-color);
 }
 
-.pq-whitout-bg .pq-fancy-box-2 .pq-fancybox-description {
+.pq-whitout-bg .pq-fancy-box-2 .pq-fancybox-description-1 {
     color: var(--secondary-color);
 }
 
@@ -4194,6 +4194,7 @@ Fancybox
     background: var(--grey-color);
     overflow: hidden;
     position: relative;
+    height: 300px;
 }
 
 .pq-fancy-box-2 .pq-fancy-box-hoverbg img {
@@ -4285,8 +4286,18 @@ Fancybox
     -webkit-transition: all 0s ease-in-out;
 }
 
-.pq-fancy-box-2 .pq-fancybox-description {
-    margin-bottom: 15px;
+.pq-fancy-box-2 .pq-fancybox-description-1 {
+    margin-top: 25px;
+    transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    -webkit-transition: all 0s ease-in-out;
+}
+
+.pq-fancy-box-2 .pq-fancybox-description-2 {
+    opacity: 0;
     transition: all 0s ease-in-out;
     transition: all 0s ease-in-out;
     -moz-transition: all 0s ease-in-out;
@@ -4309,8 +4320,16 @@ Fancybox
     color: var(--white-color);
 }
 
-.pq-fancy-box-2:hover .pq-fancybox-description {
+.pq-fancy-box-2:hover .pq-fancybox-description-1 {
+    color: var(--primary-color);
+    opacity: 0;
+    margin-top: 0px;
+}
+
+.pq-fancy-box-2:hover .pq-fancybox-description-2 {
     color: var(--white-color);
+    opacity: 100%;
+    margin-top: -55px;
 }
 
 .pq-fancy-box-2:hover .pq-btn.pq-button-link:hover .pq-btn-text:before {
@@ -4343,7 +4362,7 @@ Fancybox
     color: var(--primary-color);
 }
 
-.pq-whitout-bg .pq-fancy-box-2 .pq-fancybox-description {
+.pq-whitout-bg .pq-fancy-box-2 .pq-fancybox-description-1 {
     color: var(--secondary-color);
 }
 
@@ -4401,7 +4420,7 @@ Fancybox
     line-height: 32px;
 }
 
-.pq-fancy-box-3 .pq-fancy-box-info .pq-fancybox-description {
+.pq-fancy-box-3 .pq-fancy-box-info .pq-fancybox-description-1 {
     margin-top: 5px;
     margin-bottom: 0;
 }
@@ -4442,7 +4461,7 @@ Fancybox
     margin-bottom: 5px;
 }
 
-.pq-fancy-box-4 .pq-fancy-box-info .pq-fancybox-description {
+.pq-fancy-box-4 .pq-fancy-box-info .pq-fancybox-description-1 {
     margin-top: 10px;
     margin-bottom: 0;
 }
@@ -4458,7 +4477,7 @@ Fancybox
 .pq-fancy-box-4.pq-fancy-bg-color .pq-icon i,
 .pq-fancy-box-4.pq-fancy-bg-color .pq-fancy-box-info .pq-fancy-box-title,
 .pq-fancy-box-4.pq-fancy-bg-color .pq-fancy-box-subtitle,
-.pq-fancy-box-4.pq-fancy-bg-color .pq-fancy-box-content .pq-fancybox-description {
+.pq-fancy-box-4.pq-fancy-bg-color .pq-fancy-box-content .pq-fancybox-description-1 {
     color: var(--white-color);
 }
 
