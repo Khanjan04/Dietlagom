@@ -4288,6 +4288,7 @@ Fancybox
 
 .pq-fancy-box-2 .pq-fancybox-description-1 {
     margin-top: 25px;
+    font-size: 20px;
     transition: all 0s ease-in-out;
     transition: all 0s ease-in-out;
     -moz-transition: all 0s ease-in-out;
@@ -4329,7 +4330,7 @@ Fancybox
 .pq-fancy-box-2:hover .pq-fancybox-description-2 {
     color: var(--white-color);
     opacity: 100%;
-    margin-top: -55px;
+    margin-top: -85px;
 }
 
 .pq-fancy-box-2:hover .pq-btn.pq-button-link:hover .pq-btn-text:before {
