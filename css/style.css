@@ -1443,16 +1443,16 @@ background-color: #1ebc59;
 
 /*===== Logo =====*/
 header#pq-header .pq-bottom-header .navbar .navbar-brand {
-    line-height: 80px;
+    line-height: 40px;
 }
 
 header#pq-header .pq-bottom-header .navbar .navbar-brand img {
-    height: 60px;
+    height: 40px;
 }
 
 /*===== Header Navbar Bar =====*/
 header#pq-header .pq-bottom-header {
-    min-height: 90px;
+    min-height: 50px;
 }
 
 header#pq-header .pq-bottom-header .navbar {
@@ -1474,7 +1474,7 @@ header#pq-header .pq-bottom-header .navbar .navbar-nav li {
     float: left;
     margin-right: 30px;
     color: var(--dark-color);
-    line-height: 90px;
+    line-height: 50px;
     font-weight: 400;
 }
 
@@ -2337,6 +2337,7 @@ Section Title
     z-index: 9;
     position: relative;
     margin: 15px 0 0;
+    color: black;
 }
 
 /*================================================
@@ -4712,7 +4713,7 @@ Process Step
 .pq-process-2 .pq-process-info {
     flex-grow: 1;
     flex-basis: 50%;
-    color: var(--white-color);
+    color: var(--black-color);
     margin: 0 20px 0 40px;
 }
 
@@ -4724,7 +4725,7 @@ Process Step
 
 .pq-process-2 .pq-process-info .pq-process-title {
     font-size: 22px;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .pq-process-2 .pq-process-description p {
@@ -6168,7 +6169,7 @@ ul li.pq-about-icon-list-item {
 
 .pq-section-title.pq-about-title,
 .pq-section-description.pq-about-description {
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .pq-dark-bg-side-right:before {
@@ -6180,7 +6181,7 @@ ul li.pq-about-icon-list-item {
     display: inline-block;
     width: 65%;
     height: 100%;
-    background: var(--dark-color);
+    background: var(--grey-color);
 }
 
 .pq-about-main-container {
