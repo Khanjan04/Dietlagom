@@ -694,6 +694,10 @@ Button Core
     background-color: var(--grey-color);
 }
 
+.pq-white-bg-color {
+    background-color: var(--white-color);
+}
+
 .pq-bg-primary {
     background-color: var(--primary-color);
 }
@@ -3280,7 +3284,7 @@ BMI Calc
 ================================================*/
 
 .pq-bg-calculater-color {
-    background: var(--dark-color);
+    background: var(--grey-color);
     margin-bottom: 0px;
     padding: 140px 0px 130px 0px;
 }
@@ -3301,7 +3305,7 @@ BMI Calc
 }
 
 .pq-section-title.pq-calculater-title {
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .pq-bmi-calc .pq-radio-box {
@@ -3314,7 +3318,7 @@ BMI Calc
     margin-right: 20px;
     cursor: pointer;
     position: relative;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .pq-bmi-calc .pq-radio-box input.pq-bmi-calc {
@@ -3354,7 +3358,7 @@ BMI Calc
 }
 
 .pq-bmi-calc .pq-label {
-    color: var(--white-color);
+    color: var(--black-color);
     margin-top: 10px;
 }
 
@@ -3400,7 +3404,7 @@ BMI Calc
 }
 
 .pq-bmi-calc .pq-input-box input::placeholder {
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 /*================================================
@@ -4243,10 +4247,22 @@ Fancybox
     position: relative;
 }
 
+.pq-fancy-box-2 {
+    position: relative;
+}
+
+.pq-fancy-box-2 .pq-fancy-box-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* Perfect centering */
+    text-align: center;
+}
+
 .pq-fancy-box-2 .pq-fancy-box-content {
     padding-top: 15px;
     margin-top: 15px;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    /* border-top: 1px solid rgba(0, 0, 0, 0.08); */
 }
 
 .pq-fancy-box-2:hover .pq-fancy-box-content {
@@ -4289,7 +4305,44 @@ Fancybox
 
 .pq-fancy-box-2 .pq-fancybox-description-1 {
     margin-top: 25px;
-    font-size: 20px;
+    padding-top: 15px;
+    font-size: 40px;
+    transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    -webkit-transition: all 0s ease-in-out;
+}
+
+.pq-fancy-box-2 .pq-fancybox-description-3 {
+    margin-top: 25px;
+    padding-top: 55px;
+    font-size: 40px;
+    transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    -webkit-transition: all 0s ease-in-out;
+}
+
+.pq-fancy-box-2 .pq-fancybox-description-5 {
+    margin-top: 25px;
+    padding-top: 195px;
+    font-size: 40px;
+    transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    -webkit-transition: all 0s ease-in-out;
+}
+
+.pq-fancy-box-2 .pq-fancybox-description-7 {
+    margin-top: 25px;
+    padding-top: 245px;
+    font-size: 40px;
     transition: all 0s ease-in-out;
     transition: all 0s ease-in-out;
     -moz-transition: all 0s ease-in-out;
@@ -4299,6 +4352,36 @@ Fancybox
 }
 
 .pq-fancy-box-2 .pq-fancybox-description-2 {
+    opacity: 0;
+    transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    -webkit-transition: all 0s ease-in-out;
+}
+
+.pq-fancy-box-2 .pq-fancybox-description-4 {
+    opacity: 0;
+    transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    -webkit-transition: all 0s ease-in-out;
+}
+
+.pq-fancy-box-2 .pq-fancybox-description-6 {
+    opacity: 0;
+    transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    -webkit-transition: all 0s ease-in-out;
+}
+
+.pq-fancy-box-2 .pq-fancybox-description-8 {
     opacity: 0;
     transition: all 0s ease-in-out;
     transition: all 0s ease-in-out;
@@ -4328,10 +4411,46 @@ Fancybox
     margin-top: 0px;
 }
 
+.pq-fancy-box-2:hover .pq-fancybox-description-3 {
+    color: var(--primary-color);
+    opacity: 0;
+    margin-top: 0px;
+}
+
+.pq-fancy-box-2:hover .pq-fancybox-description-5 {
+    color: var(--primary-color);
+    opacity: 0;
+    margin-top: 0px;
+}
+
+.pq-fancy-box-2:hover .pq-fancybox-description-7 {
+    color: var(--primary-color);
+    opacity: 0;
+    margin-top: 0px;
+}
+
 .pq-fancy-box-2:hover .pq-fancybox-description-2 {
     color: var(--white-color);
     opacity: 100%;
-    margin-top: -85px;
+    margin-top: -115px;
+}
+
+.pq-fancy-box-2:hover .pq-fancybox-description-4 {
+    color: var(--white-color);
+    opacity: 100%;
+    margin-top: -145px;
+}
+
+.pq-fancy-box-2:hover .pq-fancybox-description-6 {
+    color: var(--white-color);
+    opacity: 100%;
+    margin-top: -245px;
+}
+
+.pq-fancy-box-2:hover .pq-fancybox-description-8 {
+    color: var(--white-color);
+    opacity: 100%;
+    margin-top: -345px;
 }
 
 .pq-fancy-box-2:hover .pq-btn.pq-button-link:hover .pq-btn-text:before {
