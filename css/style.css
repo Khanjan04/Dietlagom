@@ -6284,6 +6284,9 @@ ul li.pq-about-icon-list-item {
 
 .pq-about-img2 {
     margin-right: 30px;
+    margin-left: 60px;
+    width: 600px;
+    height: auto;
 }
 
 .pq-section-title.pq-about-title,

@@ -497,9 +497,9 @@ Design and Developed by: PeacefulQode
 		padding: 0 15px 0 0;
 	}
 
-	.pq-about-img2 {
+	/* .pq-about-img2 {
 		margin: 0px;
-	}
+	} */
 
 	.pq-about-box .pq-about-box-title {
 		padding: 5px 15px 5px 15px;
@@ -939,9 +939,9 @@ Design and Developed by: PeacefulQode
 		margin-left: 0;
 	}
 
-	.pq-about-img2 {
+	/* .pq-about-img2 {
 		margin-right: 0;
-	}
+	} */
 
 	.pq-about-img {
 		margin-top: 30px;
@@ -1095,16 +1095,16 @@ Design and Developed by: PeacefulQode
 		margin-top: 15px;
 	}
 
-	.pq-about-img2 {
+	/* .pq-about-img2 {
 		margin-right: 0px;
-	}
+	} */
 
 	.pq-about-img1 img {
 		width: auto;
 	}
 
 	.pq-about-img2 img {
-		width: auto;
+		width: 300px;
 	}
 
 	.pq-about-counter-img {
@@ -1269,7 +1269,7 @@ Design and Developed by: PeacefulQode
 
 	.pq-about-img2 {
 		text-align: center;
-		margin-right: 0px;
+		margin-right: -10px;
 	}
 
 	.pq-team1-main-box,
@@ -1410,9 +1410,9 @@ Design and Developed by: PeacefulQode
 		width: 100%;
 	}
 
-	.pq-about-img2 img {
+	/* .pq-about-img2 img {
 		width: 100%;
-	}
+	} */
 
 	.pq-about-img2 {
 		margin-left: 0px;
