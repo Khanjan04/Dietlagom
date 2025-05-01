@@ -4396,7 +4396,7 @@ Fancybox
 /* Mobile screens */
 @media (max-width: 768px) {
     .pq-fancy-box-2 .pq-fancybox-description-5 {
-        padding-top: 60vh;
+        padding-top: 45vh;
         font-size: 2.5rem;
     }
 }
@@ -4431,7 +4431,7 @@ Fancybox
 /* Mobile screens */
 @media (max-width: 768px) {
     .pq-fancy-box-2 .pq-fancybox-description-7 {
-        padding-top: 60vh;
+        padding-top: 45vh;
         font-size: 2.5rem;
     }
 }
