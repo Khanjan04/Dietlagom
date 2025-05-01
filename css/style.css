@@ -4366,6 +4366,14 @@ Fancybox
     -webkit-transition: all 0s ease-in-out;
 }
 
+/* Mobile screens */
+@media (max-width: 768px) {
+    .pq-fancy-box-2 .pq-fancybox-description-3 {
+        padding-top: 12vh;
+        font-size: 2.5rem;
+    }
+}
+
 /* .pq-fancy-box-2 .pq-fancybox-description-5 {
     margin-top: 25px;
     padding-top: 395px;
@@ -4526,6 +4534,14 @@ Fancybox
     margin-top: -145px;
 }
 
+/* Mobile screens */
+@media (max-width: 768px) {
+    .pq-fancy-box-2:hover .pq-fancybox-description-4 {
+        margin-top: -25vh;
+        font-size: 1rem;
+    }
+}
+
 /* .pq-fancy-box-2:hover .pq-fancybox-description-6 {
     color: var(--white-color);
     opacity: 100%;
@@ -4549,7 +4565,7 @@ Fancybox
 /* Mobile screens */
 @media (max-width: 768px) {
     .pq-fancy-box-2:hover .pq-fancybox-description-6 {
-        margin-top: -75vh;
+        margin-top: -55vh;
         font-size: 0.75rem;
     }
 }
@@ -4577,7 +4593,7 @@ Fancybox
 /* Mobile screens */
 @media (max-width: 768px) {
     .pq-fancy-box-2:hover .pq-fancybox-description-8 {
-        margin-top: -85vh;
+        margin-top: -65vh;
         font-size: 0.75rem;
     }
 }
